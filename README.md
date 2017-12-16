@@ -1,5 +1,8 @@
 # AIS-encode-arduino
-to make a sentience of AIS type 1 
+to make a sentience of AIS type 1 with information feeded by GPS
+1. first get GPS work on the serial you wish. I use software serial on arduino,hardwareSerial on ESP32
+2. withGPS we can have lot, lon, SoG, CoG, hour, min,sec, the other data are currently with prefix.
+3.heading is some how can be down if we add a compass.TBD
 
 /*
 target is to get a valid AIS sentence
